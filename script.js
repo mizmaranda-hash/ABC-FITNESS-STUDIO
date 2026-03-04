@@ -1,6 +1,4 @@
-// ------------------------------
 // Subscribe Button (All Pages)
-// ------------------------------
 const subscribeBtn = document.querySelector(".subscribe-btn");
 
 if (subscribeBtn) {
@@ -43,12 +41,12 @@ function renderCart() {
   });
 }
 
-// Add to Cart Buttons (Gallery Page)
+// Add to Cart Buttons
 const addToCartButtons = document.querySelectorAll(".add-to-cart");
 
 addToCartButtons.forEach(function (button) {
   button.addEventListener("click", function () {
-    // Use the item name from the <p> right above the button
+    
     const itemName = button.previousElementSibling?.textContent?.trim() || "Item";
 
     const items = getCartItems();
@@ -67,7 +65,7 @@ const viewCartBtn = document.querySelector(".view-cart");
 if (viewCartBtn && modal) {
   viewCartBtn.addEventListener("click", function () {
     renderCart();
-    modal.style.display = "block";
+    modal.style.display = "flex";
   });
 }
 
