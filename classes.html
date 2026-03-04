@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ABC Fitness Studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+<img src="images/logo.png" alt="ABC Fitness Studio Logo" width="100">
+<h1>ABC Fitness Studio</h1>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="classes.html">Classes & Bookings</a>
+  <a href="about.html">About Us</a>
+  
+</nav>
+</header>
+<main>
+<h2>Classes & Bookings</h2>
+<p>
+  Ready to move your body and reset your mind? Browse our weekly schedule below and request a spot in a class.
+  We offer Yoga, Pilates, and Kickboxing for all levels.
+</p>
+
+<h3>Weekly Class Schedule</h3>
+<table border="1" width="100%">
+  <tr>
+    <th>Day</th>
+    <th>Time</th>
+    <th>Class</th>
+    <th>Level</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>6:00 AM</td>
+    <td>Yoga Flow</td>
+    <td>All Levels</td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+    <td>7:00 PM</td>
+    <td>Kickboxing</td>
+    <td>Beginner Intermediate</td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>5:30 PM</td>
+    <td>Pilates Core</td>
+    <td>All Levels</td>
+  </tr>
+  <tr>
+    <td>Thursday</td>
+    <td>6:00 PM</td>
+    <td>Yoga Restore</td>
+    <td>Beginner</td>
+  </tr>
+  <tr>
+    <td>Friday</td>
+    <td>6:30 PM</td>
+    <td>Kickboxing</td>
+    <td>Intermediate</td>
+  </tr>
+  <tr>
+    <td>Saturday</td>
+    <td>10:00 AM</td>
+    <td>Community Class (Rotating)</td>
+    <td>All Levels</td>
+  </tr>
+</table>
+
+<h3>Request a Booking</h3>
+<p>
+  Submit this form to request a spot. We'll confirm availability by email.
+</p>
+
+<form action="#" method="post">
+  <fieldset>
+    <legend>Booking Request</legend>
+
+    <p>
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" required>
+    </p>
+
+    <p>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required>
+    </p>
+
+    <p>
+      <label for="classType">Select a Class:</label><br>
+      <select id="classType" name="classType" required>
+        <option value="">-- Select One --</option>
+        <option value="yoga">Yoga</option>
+        <option value="pilates">Pilates</option>
+        <option value="kickboxing">Kickboxing</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="preferredDay">Preferred Day:</label><br>
+      <select id="preferredDay" name="preferredDay" required>
+        <option value="">-- Select One --</option>
+        <option value="monday">Monday</option>
+        <option value="tuesday">Tuesday</option>
+        <option value="wednesday">Wednesday</option>
+        <option value="thursday">Thursday</option>
+        <option value="friday">Friday</option>
+        <option value="saturday">Saturday</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="notes">Notes (optional):</label><br>
+      <textarea id="notes" name="notes" rows="4" cols="40"></textarea>
+    </p>
+
+    <p>
+      <button type="submit">Request Booking</button>
+      <button type="reset">Clear</button>
+    </p>
+  </fieldset>
+</form>
+<h3>What Our Clients Say</h3>
+<ul>
+  <li>"The classes are challenging but welcoming. I feel stronger every week."</li>
+  <li>"Yoga Restore helped me manage stress and sleep better. I love the vibe here."</li>
+  <li>"Kickboxing is my favorite great energy and great instructors!"</li>
+</ul>
+</main>
+<footer>
+<p>ABC Fitness Studio</p>
+<p>Hours: Mon-Fri 6am-8pm | Sat 8am-6pm | Sun Closed</p>
+<p>Email: info@abcfitness.com</p>
+
+<button class="subscribe-btn">Subscribe</button>
+
+<div class="social-links">
+<p>Follow Us</p>
+<a href="#">Instagram</a>
+<a href="#">Facebook</a>
+<a href="#">YouTube</a>
+<a href="#">TikTok</a>
+</div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

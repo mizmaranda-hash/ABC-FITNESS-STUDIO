@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ABC Fitness Studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+<img src="images/logo.png" alt="ABC Fitness Studio Logo" width="100">
+<h1>ABC Fitness Studio</h1>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="classes.html">Classes & Bookings</a>
+  <a href="about.html">About Us</a>
+  
+</nav>
+</header>
+<main>
+<h2>About Us</h2>
+<p>
+  ABC Fitness Studio is a wellness-focused studio offering Yoga, Pilates, and Kickboxing.
+  Our goal is to help our community build strength, confidence, and balance inside and outside the gym.
+</p>
+
+<h2>Contact Us</h2>
+<p>
+Have a question, feedback, or want to request a custom package? Fill out the form below and we'll get back to you.
+</p>
+
+  <form action="#" method="post" class="contact-form">
+  <fieldset>
+    <legend>Client Feedback & Custom Request Form</legend>
+
+    <p>
+      <label for="fullName">Full Name:</label><br>
+      <input type="text" id="fullName" name="fullName" required>
+    </p>
+
+    <p>
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" required>
+    </p>
+
+    <p>
+      <label for="phone">Phone Number (optional):</label><br>
+      <input type="tel" id="phone" name="phone" placeholder="(###) ###-####">
+    </p>
+
+    <p>
+      <label for="contactReason">What are you contacting us about?</label><br>
+      <select id="contactReason" name="contactReason" required>
+        <option value="">-- Select One --</option>
+        <option value="feedback">General Feedback</option>
+        <option value="classQuestion">Class Question</option>
+        <option value="customRequest">Custom Order / Custom Package Request</option>
+      </select>
+    </p>
+
+    <p>
+      <label>Preferred Contact Method:</label><br>
+      <input type="radio" id="contactEmail" name="preferredContact" value="email" required>
+      <label for="contactEmail">Email</label><br>
+
+      <input type="radio" id="contactPhone" name="preferredContact" value="phone">
+      <label for="contactPhone">Phone</label>
+    </p>
+
+    <p>
+      <label for="customDetails">Message / Request Details:</label><br>
+      <textarea id="customDetails" name="customDetails" rows="5" cols="40" required></textarea>
+    </p>
+
+    <p>
+      <label>
+        <input type="checkbox" name="agreeToContact" required>
+        I agree to be contacted by ABC Fitness Studio regarding my request.
+      </label>
+    </p>
+
+    <p>
+      <button type="submit">Submit</button>
+      <button type="reset">Clear Form</button>
+    </p>
+  </fieldset>
+</form>
+</main>
+<footer>
+<p>ABC Fitness Studio</p>
+<p>Hours: Mon-Fri 6am-8pm | Sat 8am-6pm | Sun Closed</p>
+<p>Email: info@abcfitness.com</p>
+
+<button class="subscribe-btn">Subscribe</button>
+
+<div class="social-links">
+<p>Follow Us</p>
+<a href="#">Instagram</a>
+<a href="#">Facebook</a>
+<a href="#">YouTube</a>
+<a href="#">TikTok</a>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

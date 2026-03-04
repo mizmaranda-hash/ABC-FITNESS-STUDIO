@@ -1,0 +1,184 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
+
+:root{
+  /* Color Palette 2 */
+  --nourish-navy: #001F3F;
+  --bootcamp-blue: #20458E;
+  --boxjump-blue: #155EBC;
+  --pilates-purple: #634E99;
+  --wellness-gray: #D3D3D3;
+
+  --bg: #FFFFFF;
+  --card: #FFFFFF;
+
+  /* Typography Option 2 */
+  --title-font: Arial, sans-serif;
+  --subtitle-font: "Comfortaa", Arial, sans-serif;
+  --body-font: Calibri, Arial, sans-serif;
+}
+
+
+body{
+  margin: 0;
+  background: var(--bg);
+  color: var(--nourish-navy);
+  font-family: var(--body-font);
+  font-size: 16px; 
+  line-height: 1.5;
+}
+
+main{ padding: 20px; }
+
+
+h1{
+  font-family: var(--title-font);
+  font-weight: 700;
+  font-size: 30px; 
+  margin: 0;
+  color: var(--nourish-navy);
+}
+
+h2{
+  font-family: var(--title-font);
+  font-weight: 700;
+  font-size: 25px;
+  color: var(--nourish-navy);
+  margin-top: 0;
+}
+
+
+.subtitle, h3{
+  font-family: var(--subtitle-font);
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--bootcamp-blue);
+}
+
+
+p{ margin: 10px 0; }
+.body-large{ font-size: 20px; } 
+.body-strong{ font-weight: 700; font-size: 16px; } 
+.caption{ font-family: var(--title-font); font-weight: 700; font-size: 11px; } 
+
+
+header{
+  background: var(--wellness-gray);
+  border-bottom: 3px solid var(--nourish-navy);
+  padding: 16px 20px;
+}
+header {
+  background: var(--wellness-gray);
+  border-bottom: 3px solid var(--nourish-navy);
+  padding: 16px 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  text-align: center;
+}
+
+footer{
+  background: var(--wellness-gray);
+  border-top: 3px solid var(--nourish-navy);
+  padding: 16px 20px;
+  margin-top: 30px;
+
+  text-align: center;
+}
+
+
+nav{
+  margin-top: 10px;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+nav a{
+  color: var(--nourish-navy);
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-family: var(--body-font);
+  font-weight: 700; 
+}
+
+nav a:hover{
+  background: #fff;
+  outline: 2px solid var(--boxjump-blue);
+}
+
+
+button{
+  font-family: var(--body-font);
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 2px solid var(--nourish-navy);
+  background: var(--bootcamp-blue);
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover{
+  background: var(--boxjump-blue);
+}
+
+.subscribe-btn{
+  background: var(--pilates-purple);
+  border-color: var(--pilates-purple);
+}
+
+
+table{
+  border-collapse: collapse;
+  background: var(--card);
+}
+
+td{
+  padding: 14px;
+  border: 1px solid var(--wellness-gray);
+}
+
+
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+main{
+  padding: 20px;
+  max-width: 1100px;   
+  margin: 0 auto;      
+}
+section{
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+img{
+  border-radius: 8px;
+  max-width: 100%;
+}
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin: 0 8px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--bootcamp-blue);
+}
+
+.social-links a:hover {
+  color: var(--boxjump-blue);
+  text-decoration: underline;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ABC Fitness Studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+<img src="images/logo.png" alt="ABC Fitness Studio Logo" width="100">
+<h1>ABC Fitness Studio</h1>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="classes.html">Classes & Bookings</a>
+  <a href="about.html">About Us</a>
+  
+</nav>
+</header>
+<main>
+<h2>Gallery</h2>
+<p>Explore our fitness classes and featured products.</p>
+
+<table border="1" width="100%">
+  
+  <!-- Row 1 -->
+  <tr>
+    <td align="center">
+      <img src="images/individual-yoga.png" alt="Individual Yoga" width="200">
+      <p>Individual Yoga Session</p>
+      <button type="button" class="add-to-cart">Add to Cart</button>
+    </td>
+
+    <td align="center">
+      <img src="images/group-yoga.png" alt="Group Yoga" width="200">
+      <p>Group Yoga Session</p>
+      <button type="button" class="add-to-cart">Add to Cart</button>
+    </td>
+
+    <td align="center">
+      <img src="images/individual-pilates.png" alt="Individual Pilates" width="200">
+      <p>Individual Pilates Session</p>
+      <button type="button" class="add-to-cart">Add to Cart</button>
+    </td>
+  </tr>
+
+  <!-- Row 2 -->
+  <tr>
+    <td align="center">
+      <img src="images/group-pilates.png" alt="Group Pilates" width="200">
+      <p>Group Pilates Session</p>
+      <button type="button" class="add-to-cart">Add to Cart</button>
+    </td>
+
+    <td align="center">
+      <img src="images/individual-kickboxing.png" alt="Individual Kickboxing" width="200">
+      <p>Individual Kickboxing Session</p>
+      <button type="button" class="add-to-cart">Add to Cart</button>
+    </td>
+
+    <td align="center">
+      <img src="images/group-kickboxing.png" alt="Group Kickboxing" width="200">
+      <p>Group Kickboxing Session</p>
+      <button type="button" class="add-to-cart">Add to Cart</button>
+    </td>
+  </tr>
+
+  <!-- Row 3 -->
+  <tr>
+    <td align="center">
+      <img src="images/yoga-mat.png" alt="Yoga Mat" width="200">
+      <p>Yoga Mat</p>
+      <button type="button" class="add-to-cart">Add to Cart</button>
+    </td>
+
+    <td align="center">
+      <img src="images/water-bottle.png" alt="Water Bottle" width="200">
+      <p>Water Bottle</p>
+      <button type="button" class="add-to-cart">Add to Cart</button>
+    </td>
+
+    <td align="center">
+      <img src="images/tee-shirt.png" alt="Tee Shirt" width="200">
+      <p>Tee Shirt</p>
+      <button type="button" class="add-to-cart">Add to Cart</button>
+    </td>
+  </tr>
+
+</table>
+<div style="margin-top: 20px; text-align: center;">
+<button type="button" class="view-cart">View Cart</button>
+</div>
+
+<!-- Cart Modal -->
+<div id="cartModal" class="modal">
+<div class="modal-content">
+  <span class="close">&times;</span>
+  <h3>Your Cart</h3>
+  <ul class="cart-items"></ul>
+  <p class="cart-empty-message" style="display:none;">Your cart is empty.</p>
+
+  <div style="margin-top:15px;">
+    <button type="button" class="clear-cart">Clear Cart</button>
+    <button type="button" class="process-order">Process Order</button>
+  </div>
+</div>
+</main>
+<footer>
+<p>ABC Fitness Studio</p>
+<p>Hours: Mon-Fri 6am-8pm | Sat 8am-6pm | Sun Closed</p>
+<p>Email: info@abcfitness.com</p>
+
+<button class="subscribe-btn">Subscribe</button>
+
+<div class="social-links">
+<p>Follow Us</p>
+<a href="#">Instagram</a>
+<a href="#">Facebook</a>
+<a href="#">YouTube</a>
+<a href="#">TikTok</a>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
